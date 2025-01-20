@@ -1,0 +1,79 @@
+body{
+    background:url("background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+  
+}
+.login{
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.6);
+    border-radius: 10px;
+}
+
+.login img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    border: 2px solid maroon;
+    border-radius: 50%;
+
+}
+.login h1{
+    margin: 0;
+    padding: 10px 10px;
+    color: maroon;
+    text-align: center;
+
+}
+.login label{
+    color: rgb(113, 58, 58);
+    font-weight: bold;
+    font-size: 14px;
+}
+.login input{
+   width: 100%;
+   margin: 10px 0px; 
+}
+.login input[type="text"],[type="password"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid maroon;
+    color: maroon;
+    font-size: 14px;
+}
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    color: maroon;
+    height: 30px;
+    font-size: 15px;
+    background: rgb(237, 198, 214);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: .3s ease;
+}
+.login input[type="submit"]:hover{
+    transform: scale(1.08);
+}
+.login a{
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+    font-size: 14px;
+}
+.login a:hover{
+    color: rgb(200,0,50);
+    text-decoration: underline;
+}
